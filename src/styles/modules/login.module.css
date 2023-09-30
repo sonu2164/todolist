@@ -1,0 +1,56 @@
+/* Login.module.css */
+
+
+.login-container {
+    position: absolute;
+    top: 15vh;
+    right: 0px;
+    left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Glass-like background color */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Box shadow for depth */
+    padding: 20px;
+    max-width: 400px;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+
+}
+
+
+.form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+/* Inside your CSS module */
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+}
