@@ -27,7 +27,7 @@ npm start
  Application should now be running locally. Open a web browser and navigate to http://localhost:3000 to access it.
 
 
-## User Authentication Flow
+User Authentication Flow
 
 This README provides an overview of the authentication flow in my React-based To-Do List application. It explains how user registration, login, and logout processes work within the app.
 
